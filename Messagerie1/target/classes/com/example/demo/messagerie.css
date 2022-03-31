@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+#anchorPane{
+    -fx-background-image : url("livre.png");
+    -fx-background-size : cover;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-font-family : "Noto Serif", serif;
+}
+
+#sp_UserButton, #vb_UserButton, #sp_UserMessages, #vb_UserMessages{
+    -fx-background-radius: 4,4,4,4;
+}
+
+#sp_UserButton, #sp_UserMessages, #vb_UserMessages, #tf_Ajout_User, #taMessage, #bt_Envoyer, #ajout_User{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#titre{
+    -fx-font-size: 18px;
+    -fx-font-family: "Pacifico";
+    -fx-text-fill: #fdf3ed;
+    -fx-border-width: 2px;
+    -fx-border-radius: 2,2,2,2;
+    -fx-border-color: #52302e;
+}
+
+#heure{
+    -fx-font-size: 10px;
+}
+
+#msg_UserSender{
+    -fx-background-color : #f08853;
+    -fx-background-radius: 4,4,4,4;
+    -fx-padding: 4 3 4 3;
+    -fx-border-color: #e56443;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4,4,4,4;
+    -fx-font-size: 15px;
+}
+
+#msg_UserReceiver{
+    -fx-background-color : #cf7973;
+    -fx-background-radius: 4,4,4,4;
+    -fx-padding: 4 3 4 3;
+    -fx-border-color: #a5605c;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4,4,4,4;
+    -fx-font-size: 15px;
+}
+
+#bt_NomUser{
+    -fx-pref-width: 208px;
+    -fx-background-color: #c0c0c0,
+        linear-gradient(#d8c3a8, #c09e73);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: #52302e;
+    -fx-font-size: 12px;
+}
+
+#bt_NomUser:hover{
+    -fx-background-color: #6c6154,
+        linear-gradient(#c2af97, #ac9c86);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: #52302e;
+    -fx-font-size: 12px;
+}
+
+#bt_NomUser:pressed{
+    -fx-background-color: #6c6154,
+        linear-gradient(#dbc9b0, #dfcfb9);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: #52302e;
+    -fx-font-size: 12px;
+}
+
+#bt_Envoyer, #ajout_User {
+    -fx-background-color: #f6b999;
+}
+
+#inexistant{
+    -fx-text-fill: #fadbcb;
+}
